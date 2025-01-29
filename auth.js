@@ -65,7 +65,10 @@ async function login() {
 
                 
             });
-          
+           setTimeout(() => {
+            
+                window.location.href = "dashboard.html"
+            }, 2000);
         }   
         
           return data;
